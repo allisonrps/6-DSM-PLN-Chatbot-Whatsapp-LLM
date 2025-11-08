@@ -23,7 +23,7 @@ const colors = require('colors/safe')
 const lmstudioUrl = 'http://127.0.0.1:1234'
 const conversationHistory = new Map()
 const KNOWLEDGE_FOLDER = path.join(__dirname, 'knowledge')
-const numerosAutorizados = ['5516992272467']
+const numerosAutorizados = ['5516992271111']
 
 console.log(colors.cyan.bold('\n🤖 Iniciando Bot Olimpiadas...'))
 console.log(colors.yellow(`📱 Números autorizados: ${numerosAutorizados.join(', ')}\n`))
