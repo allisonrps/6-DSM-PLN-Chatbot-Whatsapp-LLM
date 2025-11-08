@@ -1,0 +1,32 @@
+{
+  "name": "bot-olimpiadas-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot do WhatsApp especializado em Olimpíadas com IA local via LMStudio",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "olimpiadas",
+    "olympics",
+    "ia",
+    "lmstudio",
+    "baileys"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.15.0",
+    "@hapi/boom": "^10.0.0",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
